@@ -8,6 +8,7 @@ from .models import Women
 from .serializers import WomenSerializer
 
 
+# 2_________
 # class WomenAPIView(APIView):
 #     def get(self, request):
 #         lst = Women.objects.all()
@@ -17,6 +18,7 @@ from .serializers import WomenSerializer
 #         return Response({'title': 'Jenife Lopes'})
 
 
+# 3_________
 class WomenAPIView(APIView):
     def get(self, request):
         lst = Women.objects.all().values()
@@ -32,6 +34,7 @@ class WomenAPIView(APIView):
         return Response({'post': model_to_dict(post_new)})
 
 
+# 1_________
 # class WomenAPIView(generics.ListAPIView):
 #     queryset = Women.objects.all()
 #     serializer_class = WomenSerializer
