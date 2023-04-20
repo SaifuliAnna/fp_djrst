@@ -8,6 +8,25 @@ from .models import Women
 from .serializers import WomenSerializer
 
 
+# 4_________
+class WomenAPIView(APIView):
+    def get(self, request):
+        w = Women.objects.all()
+        return Response({'posts': WomenSerializer(w, many=True).data})
+
+    def post(self, request):
+        serializer = WomenSerializer(data=request.data)
+        serializer.is_valid(raise_exception=True)
+
+        post_new = Women.objects.create(
+            title=request.data['title'],
+            content=request.data['content'],
+            cat_id=request.data['cat_id']
+        )
+
+        return Response({'post': WomenSerializer(post_new).data})
+
+
 # 2_________
 # class WomenAPIView(APIView):
 #     def get(self, request):
@@ -19,19 +38,19 @@ from .serializers import WomenSerializer
 
 
 # 3_________
-class WomenAPIView(APIView):
-    def get(self, request):
-        lst = Women.objects.all().values()
-        return Response({'posts': list(lst)})
-
-    def post(self, request):
-        post_new = Women.objects.create(
-            title=request.data['title'],
-            content=request.data['content'],
-            cat_id=request.data['cat_id']
-        )
-
-        return Response({'post': model_to_dict(post_new)})
+# class WomenAPIView(APIView):
+#     def get(self, request):
+#         lst = Women.objects.all().values()
+#         return Response({'posts': list(lst)})
+#
+#     def post(self, request):
+#         post_new = Women.objects.create(
+#             title=request.data['title'],
+#             content=request.data['content'],
+#             cat_id=request.data['cat_id']
+#         )
+#
+#         return Response({'post': model_to_dict(post_new)})
 
 
 # 1_________
