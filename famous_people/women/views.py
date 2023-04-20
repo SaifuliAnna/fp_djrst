@@ -1,3 +1,4 @@
+from django.forms import model_to_dict
 from rest_framework import generics
 from django.shortcuts import render
 from rest_framework.response import Response
@@ -7,10 +8,28 @@ from .models import Women
 from .serializers import WomenSerializer
 
 
+# class WomenAPIView(APIView):
+#     def get(self, request):
+#         lst = Women.objects.all()
+#         return Response({'title': 'Angelina Jolie'})
+#
+#     def post(self, request):
+#         return Response({'title': 'Jenife Lopes'})
+
+
 class WomenAPIView(APIView):
     def get(self, request):
-        return Response({'title': 'Angelina Jolie'})
+        lst = Women.objects.all().values()
+        return Response({'posts': list(lst)})
 
+    def post(self, request):
+        post_new = Women.objects.create(
+            title=request.data['title'],
+            content=request.data['content'],
+            cat_id=request.data['cat_id']
+        )
+
+        return Response({'post': model_to_dict(post_new)})
 
 
 # class WomenAPIView(generics.ListAPIView):
