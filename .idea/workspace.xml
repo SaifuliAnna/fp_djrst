@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="56ed35df-4f9d-4cb8-8ef5-eefbc33118c3" name="Changes" comment="">
+    <list default="true" id="56ed35df-4f9d-4cb8-8ef5-eefbc33118c3" name="Changes" comment="6-les">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/famous_people/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/famous_people/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/famous_people/famous_people/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/famous_people/famous_people/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/famous_people/women/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/famous_people/women/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -24,11 +25,11 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;
   }
-}]]></component>
+}</component>
   <component name="GithubPullRequestsUISettings">
     <option name="selectedUrlAndAccountId">
       <UrlAndAccount>
@@ -49,14 +50,14 @@
     <option name="showMembers" value="true" />
     <option name="sortByType" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "/Users/annasaifulina/Documents/GIT_progect/fp_djrst",
-    "settings.editor.selected.configurable": "preferences.keymap"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/annasaifulina/Documents/GIT_progect/fp_djrst&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -66,6 +67,69 @@
       <option name="presentableId" value="Default" />
       <updated>1681998867352</updated>
     </task>
+    <task id="LOCAL-00001" summary="3 - les">
+      <created>1682014401530</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1682014401530</updated>
+    </task>
+    <task id="LOCAL-00002" summary="4.1-les">
+      <created>1682016919571</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1682016919571</updated>
+    </task>
+    <task id="LOCAL-00003" summary="4.2-les">
+      <created>1682018687544</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1682018687544</updated>
+    </task>
+    <task id="LOCAL-00004" summary="5-les">
+      <created>1682064352980</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1682064352980</updated>
+    </task>
+    <task id="LOCAL-00005" summary="clear_to_5">
+      <created>1682064605238</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1682064605238</updated>
+    </task>
+    <task id="LOCAL-00006" summary="6-les">
+      <created>1682066314237</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1682066314237</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="3 - les" />
+    <MESSAGE value="4.1-les" />
+    <MESSAGE value="4.2-les" />
+    <MESSAGE value="5-les" />
+    <MESSAGE value="clear_to_5" />
+    <MESSAGE value="6-les" />
+    <option name="LAST_COMMIT_MESSAGE" value="6-les" />
   </component>
 </project>
