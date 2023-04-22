@@ -11,8 +11,17 @@ from .serializers import WomenSerializer
 
 # 8_________
 class WomenViewSet(viewsets.ModelViewSet):
-    queryset = Women.objects.all()
+    # queryset = Women.objects.all() якщо 17 строчка є то цієї не потрібно і в юрлсах треба змінити
     serializer_class = WomenSerializer
+
+    def get_queryset(self):
+        pk = self.kwargs.get('pk')
+
+        if not pk:
+            return Women.objects.all()[:3]
+
+        return Women.objects.filter(pk=pk)
+
 
     # @action(methods=['get'], detail=False)
     # def category(self, request):
