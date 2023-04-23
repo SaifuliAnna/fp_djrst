@@ -4,13 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="56ed35df-4f9d-4cb8-8ef5-eefbc33118c3" name="Changes" comment="9.3-les">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/famous_people/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/famous_people/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/famous_people/famous_people/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/famous_people/famous_people/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/famous_people/women/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/famous_people/women/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/famous_people/women/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/famous_people/women/views.py" afterDir="false" />
-    </list>
+    <list default="true" id="56ed35df-4f9d-4cb8-8ef5-eefbc33118c3" name="Changes" comment="10.2-les" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -145,7 +139,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682176333292</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="10.1-les">
+      <created>1682187026256</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1682187026256</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -170,6 +171,7 @@
     <MESSAGE value="9.1-les" />
     <MESSAGE value="9.2-les" />
     <MESSAGE value="9.3-les" />
-    <option name="LAST_COMMIT_MESSAGE" value="9.3-les" />
+    <MESSAGE value="10.1-les" />
+    <option name="LAST_COMMIT_MESSAGE" value="10.1-les" />
   </component>
 </project>
