@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="56ed35df-4f9d-4cb8-8ef5-eefbc33118c3" name="Changes" comment="10.2-les" />
+    <list default="true" id="56ed35df-4f9d-4cb8-8ef5-eefbc33118c3" name="Changes" comment="14-les">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/famous_people/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/famous_people/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/famous_people/famous_people/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/famous_people/famous_people/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/famous_people/women/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/famous_people/women/views.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -49,10 +54,15 @@
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/annasaifulina/Documents/GIT_progect/fp_djrst&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/annasaifulina/Documents/GIT_progect/fp_djrst/famous_people/women&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/famous_people/women" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -146,7 +156,35 @@
       <option name="project" value="LOCAL" />
       <updated>1682187026256</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="10.2-les">
+      <created>1682275887871</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1682275887871</updated>
+    </task>
+    <task id="LOCAL-00014" summary="11-les">
+      <created>1682276633799</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1682276633799</updated>
+    </task>
+    <task id="LOCAL-00015" summary="12-les">
+      <created>1682280002645</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1682280002645</updated>
+    </task>
+    <task id="LOCAL-00016" summary="14-les">
+      <created>1682365145681</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1682365145681</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -172,6 +210,10 @@
     <MESSAGE value="9.2-les" />
     <MESSAGE value="9.3-les" />
     <MESSAGE value="10.1-les" />
-    <option name="LAST_COMMIT_MESSAGE" value="10.1-les" />
+    <MESSAGE value="10.2-les" />
+    <MESSAGE value="11-les" />
+    <MESSAGE value="12-les" />
+    <MESSAGE value="14-les" />
+    <option name="LAST_COMMIT_MESSAGE" value="14-les" />
   </component>
 </project>
